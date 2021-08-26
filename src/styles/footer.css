@@ -1,0 +1,7 @@
+.footerdiv{
+    background-color:rgb(80, 104, 241);
+    background: url("../images/gradient.jfif") no-repeat ;
+    background-size: cover;
+    height: 6vh;
+    text-align: center;
+}

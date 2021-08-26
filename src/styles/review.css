@@ -1,0 +1,50 @@
+.reviewdiv{
+    height: 86vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background: url("../images/gradient.jfif") no-repeat ;
+    background-size: cover;
+    
+}
+.form{
+    display: flex;
+    width: 50vw;
+    height: 86vh;
+    margin: auto;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+.form1{
+    padding: 3vh;
+}
+.form1 input{
+    width: 40vw;
+    height: 4vh;
+    border-radius: 5px;
+    
+}
+.form1 label{
+    text-align: center;
+}
+.form2 input{
+    height: 10vh;
+    width: 40vw;
+    border-radius: 5px;
+}
+.form button{
+    width: 10vw;
+    margin-top: 5vh;
+    height: 4vh;
+    border-radius: 10px;
+    display: inline;
+}
+.form button:hover{
+    background-color: pink;
+}
+.review{
+    text-decoration: none;
+    display: inline;
+   margin-top: 5vh;
+
+}
