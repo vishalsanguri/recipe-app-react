@@ -149,7 +149,7 @@
     border-radius: 15px;
     background: url("./images/1quote.jpg") no-repeat;
     background-size: 300px 35vh;
-    animation: amination2 2s  linear 1;
+    animation: amination1 1s  linear 1;
 }
 @media screen and (max-width:700px) {
     .card2{
@@ -161,7 +161,7 @@
         border-radius: 15px;
         background: url("./images/1quote.jpg") no-repeat;
         background-size: 300px 35vh;
-        animation: amination2 2s  linear 1;
+        animation: amination1 1s  linear 1;
     }
 }
 .card3{
@@ -172,7 +172,7 @@
     border-radius: 15px;
     background: url("./images/3quote.jpg") no-repeat;
     background-size: 300px 35vh;
-    animation: amination3 3s  linear 1;
+    animation: amination1 1s  linear 1;
 }
 @media screen and (max-width:700px) {
     .card3{
@@ -183,39 +183,15 @@
         border-radius: 15px;
         background: url("./images/3quote.jpg") no-repeat;
         background-size: 300px 35vh;
-        animation: amination3 3s  linear 1;
+        animation: amination1 1s  linear 1;
     }
 }
 @keyframes amination1 {
     0%{
-        transform-origin: center;
-        transform: rotateY(0deg);
+        transform: scale(0);
 
     }
     100%{
-        transform-origin: center;
-        transform: rotateY(180deg);
-    }
-}
-@keyframes amination2 {
-    50%{
-        transform-origin: center;
-        transform: rotateY(0deg);
-
-    }
-    100%{
-        transform-origin: center;
-        transform: rotateY(180deg);
-    }
-}
-@keyframes amination3 {
-    63%{
-        transform-origin: center;
-        transform: rotateY(0deg);
-
-    }
-    100%{
-        transform-origin: center;
-        transform: rotateY(180deg);
+        transform: scale(1);
     }
 }
