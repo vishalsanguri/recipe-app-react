@@ -35,7 +35,7 @@ export default function Services() {
     return (
         <>
             <div className="searchbox">
-                <input className="inputbox" type="text" value={input} onChange={setvalue} placeholder="search here" />
+                <input className="inputbox" type="text" value={input} onChange={setvalue} placeholder="search food item here" />
                 <button className="buttonbox" onClick={getdata}>search</button>
             </div>
             {render.use===""?
