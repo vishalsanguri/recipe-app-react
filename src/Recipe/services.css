@@ -1,0 +1,221 @@
+*{margin: 0;padding: 0;}
+.servicediv{
+    min-height: 72.5vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:30px;
+    gap:80px;
+    justify-content: space-evenly;
+    background-color: rgb(228, 218, 218);
+}
+.card{
+    width: 300px;
+    height:550px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 13px;
+    align-items: center;
+    box-shadow: 3px 3px rgba(0, 0, 0, .8),-4px -4px white;
+    border-radius: 5px;
+}
+.imagebox{
+    height: 180px;
+    width: 250px;
+    padding-top: 20px;
+}
+.box1{
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    background-color: white;
+    overflow-y: scroll;
+    
+}
+.box{
+    border: 1px solid red;
+    width: 150px;
+    margin: .8vh;
+    text-align: center;
+    color: green;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.box:hover{
+    background-color: rgb(174, 44, 214);
+    color: white;
+}
+.searchbox{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    min-height:5vh ;
+    background-color: #0e1523;
+   
+}
+.inputbox{
+    height: 25px;
+    width: 400px;
+    padding: 0 2vw;
+    border-radius: 10px;
+}
+@media screen and (max-width:700px) {
+    .inputbox{
+        height: 20px;
+        width: 170px;
+        padding: 0 2vw;
+        border-radius: 10px;
+    }
+}
+.buttonbox{
+    height: 3.5vh;
+    width: 100px;
+    border-radius: 10px;
+}
+@media screen and (max-width:700px) {
+    .buttonbox{
+        height: 25px;
+        margin-left: 10px;
+        width: 50px;
+        border-radius: 10px;
+    } 
+}
+.centerit{
+    text-align: center;
+}
+
+.empty{
+    min-height: 81vh;
+    background-color: rgb(228, 218, 218);
+}
+.quote{
+    height: 30vh;
+    width: 100%;
+    background: url("./images/quote.PNG") no-repeat;
+    background-size: 100vw 30vh;
+}
+@media screen and (max-width:700px) {
+    .quote{
+    height: 15vh;
+    width: 100%;
+    background: url("./images/quote.PNG") no-repeat;
+    background-size: 100vw 15vh;
+}
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 100px;
+    row-gap:10px ;
+    min-height: 51vh;
+    /* width: 100vw; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    
+}
+.card1{
+    /* border: 2px solid red; */
+    height: 35vh;
+    margin:2vh 0;
+    width: 300px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.795),-3px -3px white;
+    border-radius: 15px;
+    background: url("./images/2quote.jpg") no-repeat;
+    background-size: 300px 35vh;
+    animation: amination1 1s  linear 1;
+}
+@media screen and (max-width:700px) {
+    .card1{
+        height: 25vh;
+        margin:2vh 0;
+        width: 200px;
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.795),-3px -3px white;
+        border-radius: 15px;
+        background: url("./images/2quote.jpg") no-repeat;
+        background-size: 300px 35vh;
+        animation: amination1 1s  linear 1;
+    }
+}
+.card2{
+    /* border: 2px solid red; */
+    height: 35vh;
+    width: 300px;
+    margin:2vh 0;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.795),-3px -3px white;
+    border-radius: 15px;
+    background: url("./images/1quote.jpg") no-repeat;
+    background-size: 300px 35vh;
+    animation: amination2 2s  linear 1;
+}
+@media screen and (max-width:700px) {
+    .card2{
+        /* border: 2px solid red; */
+        height: 25vh;
+        width: 200px;
+        margin:2vh 0;
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.795),-3px -3px white;
+        border-radius: 15px;
+        background: url("./images/1quote.jpg") no-repeat;
+        background-size: 300px 35vh;
+        animation: amination2 2s  linear 1;
+    }
+}
+.card3{
+    height: 35vh;
+    width: 300px;
+    margin: 2vh 0;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.795),-3px -3px white;
+    border-radius: 15px;
+    background: url("./images/3quote.jpg") no-repeat;
+    background-size: 300px 35vh;
+    animation: amination3 3s  linear 1;
+}
+@media screen and (max-width:700px) {
+    .card3{
+        height: 25vh;
+        width: 200px;
+        margin: 2vh 0;
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.795),-3px -3px white;
+        border-radius: 15px;
+        background: url("./images/3quote.jpg") no-repeat;
+        background-size: 300px 35vh;
+        animation: amination3 3s  linear 1;
+    }
+}
+@keyframes amination1 {
+    0%{
+        transform-origin: center;
+        transform: rotateY(0deg);
+
+    }
+    100%{
+        transform-origin: center;
+        transform: rotateY(180deg);
+    }
+}
+@keyframes amination2 {
+    50%{
+        transform-origin: center;
+        transform: rotateY(0deg);
+
+    }
+    100%{
+        transform-origin: center;
+        transform: rotateY(180deg);
+    }
+}
+@keyframes amination3 {
+    63%{
+        transform-origin: center;
+        transform: rotateY(0deg);
+
+    }
+    100%{
+        transform-origin: center;
+        transform: rotateY(180deg);
+    }
+}
